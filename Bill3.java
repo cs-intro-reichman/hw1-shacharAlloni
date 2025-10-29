@@ -13,10 +13,8 @@ public class Bill3 {
 
 		divBill = Math.ceil(divBill); // Round up the individual bill.
 		
-		System.out.println("Dear " + name3 + ", " + name2 + ", " + name1 + ": pay " +
+		System.out.println("Dear " + name3 + ", " + name2 + ", and " + name1 + ": pay " +
 		divBill + " Shekels each.");
 	
-
-
 	}
 }

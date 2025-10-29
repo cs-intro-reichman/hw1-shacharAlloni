@@ -13,6 +13,6 @@ public class NumWords {
 		int ones = num % 10;
 		//System.out.println(ones); // Checking point.
 
-		System.out.println(hundreds + " hundreds, " + tens + " tens and " + ones + " ones.");
+		System.out.println(hundreds + " hundreds, " + tens + " tens, and " + ones + " ones.");
 	}
 }
