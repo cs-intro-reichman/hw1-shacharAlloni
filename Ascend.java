@@ -11,13 +11,13 @@ public class Ascend {
 
 		System.out.println(a + " " + b + " " + c);
 
-		// Finding absolute min
+		// Finding absolute min.
 		int min = Math.min(Math.min(a,b),c);
 
-		// Finding absolute max
+		// Finding absolute max.
 		int max = Math.max(Math.max(a,b),c);
 
-		// Finding mid
+		// Finding mid.
 		int min1 = Math.min(a, b);
 		int min2 = Math.min(b, c);
 		int min3 = Math.min(a, c);
