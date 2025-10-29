@@ -28,8 +28,11 @@ public class TimeFormat {
 			System.out.println(" AM");
 		}
 		else {
-
-			hours = hours - 12;
+			if (hours != 12) {
+				
+				hours = hours - 12;
+			}
+			
 			System.out.print(hours + ":" + strMinutes);
 			System.out.println(" PM");
 		}
