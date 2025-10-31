@@ -5,15 +5,15 @@ public class Ascend {
 		
 		int limit = Integer.parseInt(args[0]);
 
-		int a = (int) (Math.random()*limit);
-		int b = (int) (Math.random()*limit);
-		int c = (int) (Math.random()*limit);
+		int a = (int) (Math.random() * limit); 
+		int b = (int) (Math.random() * limit);
+		int c = (int) (Math.random() * limit);
 
 		System.out.println(a + " " + b + " " + c);
 
 		// Finding absolute min.
 		int min = Math.min(Math.min(a,b),c);
-
+		
 		// Finding absolute max.
 		int max = Math.max(Math.max(a,b),c);
 
